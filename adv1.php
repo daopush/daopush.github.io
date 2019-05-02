@@ -5,7 +5,7 @@ $source = ($_GET['source']) ? $_GET['source'] : "source ID undefined";
 $campaign = ($_GET['campaign']) ? $_GET['campaign'] : "campaign ID undefined";
 $wr=$time." Campaign ID:".$campaign." Source ID:".$source;
 
-$fp = fopen('log.txt', 'a');
+$fp = fopen('log1.txt', 'a');
 fwrite($fp, $wr . PHP_EOL);
 fclose($fp);
 
